@@ -2,3 +2,4 @@ This is the best chair in the world.
 hello
 xxx
 now it has flames
+--------
