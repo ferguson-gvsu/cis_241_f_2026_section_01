@@ -50,7 +50,7 @@ class StringSolver:
       if sol[letter_idx] == self.target[letter_idx]:
         letters_correct += 1
 
-    frac = letters_correct / letters_total 
+    frac = letters_correct / letters_total # calculate fitness
     return round(frac * 1000, 2)
 
   def select(self, num_orgs):
@@ -119,7 +119,7 @@ class StringSolver:
           if verbose:
             self.print_population(verbose = True)
 
-
+# dev comment
 
 if __name__ == '__main__':
   target = 'CIS 678 - Machine Learning'
