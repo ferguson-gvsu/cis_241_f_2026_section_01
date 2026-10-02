@@ -51,7 +51,7 @@ class StringSolver:
         letters_correct += 1
 
     frac = letters_correct / letters_total 
-    return round(frac * 100, 2)
+    return round(frac * 1000, 2)
 
   def select(self, num_orgs):
     total_fitness = 0
@@ -126,4 +126,4 @@ if __name__ == '__main__':
   solver = StringSolver(target, pop_size = 100, mut_rate = 0.01, num_elites = 3)
   solver.run(2000)
   solver.print_population(verbose = True)
-
+# Comment from main
